@@ -1,0 +1,4 @@
+# Prevent direct access to the legacy history file.
+<Files "history.json">
+    Require all denied
+</Files>

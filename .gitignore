@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.php
+config.local.php
+
+# Runtime data / potentially private URLs and history
+data/json-files.json
+data/history.json
+history.json
+
+# Keep starter placeholders in the repository
+!data/.gitkeep
+!data/json-files.example.json
+!data/history.example.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

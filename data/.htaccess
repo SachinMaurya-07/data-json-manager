@@ -1,0 +1,2 @@
+# Prevent direct web access to runtime data on Apache 2.4+
+Require all denied
